@@ -10,6 +10,5 @@ def solution(n, s):
     if s % n != 0:
         for i in range(sum(answer)-s):
             answer[i] -= 1
-    else: return answer
         
     return(answer)
