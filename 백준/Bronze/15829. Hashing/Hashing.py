@@ -14,4 +14,4 @@ answer = 0
 for i in range(L):
     answer += ((alphabet[s[i]]*(r**i)) % M)
     
-print(answer)
+print(answer%M)
